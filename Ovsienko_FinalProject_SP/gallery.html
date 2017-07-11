@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+ <!--  <title>Ovsienko - Final Project</title> -->
+  <title>Ovsienko - Final Project: Skokov Portfolio - Gallery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+
+<!-- <div class="container">  -->
+<header>
+  <nav class="navbar navbar-default " role="navigation">
+    <div class="container-fluid">
+      <div class="navnbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+         <h1 class="wow zoomIn" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name:zoomIn;">SKOKOV</h1>
+        </a>
+      </div><!-- navnbar-header -->
+     
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-right text-uppercase">
+          <li><a href="work.html">Work</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="services.html" id="select_serv">Services</a></li>
+        </ul>
+      </div> <!-- collapse navbar-collapse-->
+    </div> <!-- container -->
+  </nav>
+
+  <!-- Welcome Section -->
+  <div class="welcome">
+    <div class="content container">
+       <div class="row">   
+       <div class="col-md-9 col-md-offset-3 col-sm-12 col-xs-12 wow slideInUp data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name:slideInRight;">
+          <h2>Gallery</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente veniam, rerum provident repudiandae, ducimus beatae voluptatem ullam delectus eum excepturi quaerat, molestias accusamus. Repellendus, laboriosam recusandae! Illo quod voluptates corrupti!</p>
+        </div>
+      </div><!-- row -->
+    </div><!-- content container -->
+  </div><!-- welcome -->
+ </header>
+
+<div class="main">
+<div class="container">
+    <div id="main_area">
+      <!-- Slider -->
+      <div class="row">
+        <div class="col-sm-6" id="slider-thumbs">
+        <!-- Bottom switcher of slider -->
+          <ul class="hide-bullets">
+            <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-16">
+                <img src="images/gallery_pic16.png">
+              </a>
+            </li>
+
+            <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-1">
+                <img src="images/gallery_pic1.png">
+              </a>
+            </li>
+
+            <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-2"> <img src="images/gallery_pic2.png"></a>
+            </li>
+
+            <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-3"> <img src="images/gallery_pic3.png"></a>
+            </li>
+
+            <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-4"> <img src="images/gallery_pic4.png"></a>
+            </li>
+
+            <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-5"> <img src="images/gallery_pic5.png"></a>
+            </li>
+      
+            <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-6"> <img src="images/gallery_pic6.png"></a>
+            </li>
+
+            <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-7"> <img src="images/gallery_pic7.png"></a>
+            </li>
+
+            <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-8"> <img src="images/gallery_pic8.png"></a>
+            </li>
+
+            <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-9"> <img src="images/gallery_pic9.png"></a>
+          </li>
+          <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-10"> <img src="images/gallery_pic10.png"></a>
+          </li>
+
+          <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-11"> <img src="images/gallery_pic11.png"></a>
+          </li>
+
+          <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-12"> <img src="images/gallery_pic12.png"></a>
+          </li>
+
+          <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-13"> <img src="images/gallery_pic13.png"></a>
+          </li>
+          <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-14"> <img src="images/gallery_pic14.png"></a>
+          </li>
+
+          <li class="col-sm-3">
+              <a class="thumbnail" id="carousel-selector-15"> <img src="images/gallery_pic15.png"></a>
+          </li>
+      </ul>
+  </div>
+  <div class="col-sm-6">
+    <div class="col-xs-12" id="slider">
+        <!-- Top part of the slider -->
+        <div class="row">
+            <div class="col-sm-12" id="carousel-bounding-box">
+                <div class="carousel slide" id="myCarousel">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item" data-slide-number="16">
+                             <img src="images/gallery_pic16.png"></div>
+
+                        <div class="item" data-slide-number="1">
+                             <img src="images/gallery_pic1.png"></div>
+
+                        <div class="item" data-slide-number="2">
+                            <img src="images/gallery_pic2.png"></div>
+
+                        <div class="item" data-slide-number="3">
+                            <img src="images/gallery_pic3.png"></div>
+
+                        <div class="item" data-slide-number="4">
+                           <img src="images/gallery_pic4.png"></div>
+
+                        <div class="item" data-slide-number="5">
+                            <img src="images/gallery_pic5.png"></div>
+                        
+                        <div class="item" data-slide-number="6">
+                            <img src="images/gallery_pic6.png"></div>
+                        
+                        <div class="item" data-slide-number="7">
+                            <img src="images/gallery_pic7.png"></div>
+                        
+                        <div class="item" data-slide-number="8">
+                             <img src="images/gallery_pic8.png"></div>
+                        
+                        <div class="item" data-slide-number="9">
+                             <img src="images/gallery_pic9.png"></div>
+                        
+                        <div class="item" data-slide-number="10">
+                            <img src="images/gallery_pic10.png"></div>
+                        
+                        <div class="item" data-slide-number="11">
+                             <img src="images/gallery_pic11.png"></div>
+                        
+                        <div class="item" data-slide-number="12">
+                            <img src="images/gallery_pic12.png"></div>
+
+                        <div class="item" data-slide-number="13">
+                            <img src="images/gallery_pic13.png"></div>
+
+                        <div class="item" data-slide-number="14">
+                            <img src="images/gallery_pic14.png"></div>
+
+                        <div class="item" data-slide-number="15">
+                             <img src="images/gallery_pic15.png"></div>
+                    </div>
+                    <!-- Carousel nav -->
+                    <!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <!--/Slider-->
+        </div>
+
+    </div>
+</div>
+     
+  <div class="content container-fluid">
+    <div class="row">
+      <div class="main_line col-sm-12">
+        <img src="images/main_line.png" class="img-responsive center-block">
+      </div><!-- col-sm-12 -->
+    </div><!-- row -->
+  </div><!-- content container -->
+</div><!-- main -->
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="foot_nav col-md-4 col-sm-4 col-xs-12 wow rotateInDownLeft" style="visibility: visible; animation-name: rotateInDownLeft;" >
+          <p>&copy; 2016 Powered by <a href="http://skokov.xyz" target="_blank">SKOKOV</a></p>
+          <p>Wordpress Theme by <a href="http://skokov.xyz" target="_blank">SKOKOV</a></p>
+      </div><!-- col-sm-4 -->
+
+      <div class="foot_nav col-md-4 col-sm-4 col-xs-12 wow slideInUp" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: slideInUp;">
+        <p>e:<a href="mailto:mynameisskokov@gmail.com">mynameisskokov@gmail.com</a></p>
+        <p>m <a href="tel:+380571234567" class="phone"> +38(057) 123-45-67</a></p>
+
+      </div><!-- col-sm-4 -->
+
+      <div class="foot_nav col-md-4 col-sm-4 col-xs-12 wow rotateInDownRight" style="visibility: visible; animation-name: rotateInDownRight;">
+        <p><a href="http://behance.net/mynameisskokov" target="_blank">behance.net/mynameisskokov</a></p>
+        <p><a href="http://twitter.com/mynameisskokov" target="_blank">twitter.com/mynameisskokov</a></p>
+        <p><a href="http://dribble.com/mynameisskokov" target="_blank">dribble.com/mynameisskokov</a></p>
+      </div><!-- col-sm-4 -->
+      </div><!-- row -->
+  </div><!-- content container -->
+</footer>
+<!-- </div> -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <script src="js/wow.min.js"></script> 
+ <script>
+  new WOW().init();
+</script>
+<script src="js/myscript.js"></script>
+</body>
+</html>
