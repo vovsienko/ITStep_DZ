@@ -1,2 +1,2 @@
 # vio_studies
-My Home tasks and other learning projects
+My Home Assignments and other learning projects
