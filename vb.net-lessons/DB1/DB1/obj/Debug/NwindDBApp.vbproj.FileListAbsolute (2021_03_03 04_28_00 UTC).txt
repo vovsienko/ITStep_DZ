@@ -1,0 +1,13 @@
+C:\Users\vovs7\source\repos\DB1\DB1\bin\Debug\Nwind.mdb
+C:\Users\vovs7\source\repos\DB1\DB1\bin\Debug\DB1.exe.config
+C:\Users\vovs7\source\repos\DB1\DB1\bin\Debug\DB1.exe
+C:\Users\vovs7\source\repos\DB1\DB1\bin\Debug\DB1.pdb
+C:\Users\vovs7\source\repos\DB1\DB1\bin\Debug\DB1.xml
+C:\Users\vovs7\source\repos\DB1\DB1\obj\Debug\NwindDBApp.vbprojAssemblyReference.cache
+C:\Users\vovs7\source\repos\DB1\DB1\obj\Debug\DB1.Form1.resources
+C:\Users\vovs7\source\repos\DB1\DB1\obj\Debug\DB1.Resources.resources
+C:\Users\vovs7\source\repos\DB1\DB1\obj\Debug\NwindDBApp.vbproj.GenerateResource.cache
+C:\Users\vovs7\source\repos\DB1\DB1\obj\Debug\NwindDBApp.vbproj.CoreCompileInputs.cache
+C:\Users\vovs7\source\repos\DB1\DB1\obj\Debug\DB1.exe
+C:\Users\vovs7\source\repos\DB1\DB1\obj\Debug\DB1.xml
+C:\Users\vovs7\source\repos\DB1\DB1\obj\Debug\DB1.pdb
